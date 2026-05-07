@@ -1,0 +1,39 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:check": "npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.3.24",
+    "html2canvas": "^1.4.1",
+    "react": "^19.0.0",
+
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.0.2",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.5.4",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "postcss-nesting": "^13.0.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^6.0.3",
+    "vite": "^5.4.10"
+  }
+}
